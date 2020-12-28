@@ -4,8 +4,8 @@
   "description": "Docs page for other-hover.js",
   "main": "dist/index.html",
   "scripts": {
-    "dev": "parcel index.html",
-    "build": "parcel build index.html -d docs",
+    "dev": "parcel src/index.html -d .",
+    "build": "parcel build src/index.html -d .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
