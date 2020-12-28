@@ -1,8 +1,8 @@
 {
   "name": "other-hover-demo",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Docs page for other-hover.js",
+  "main": "dist/index.html",
   "scripts": {
     "dev": "parcel index.html",
     "build": "parcel build index.html",
@@ -12,7 +12,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "other-hover": "file:../other-hover",
+    "other-hover": "^1.0.1",
     "splitting": "^1.0.6"
   },
   "devDependencies": {
