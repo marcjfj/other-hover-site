@@ -29,6 +29,9 @@ main {
     }
   }
 }
+.header {
+  text-align: center;
+}
 .title {
   font-size: 80px;
   text-align: center;
@@ -57,7 +60,19 @@ main {
   margin: 0px auto;
   max-width: 450px;
 }
-
+.collection-link {
+  text-align: center;
+  margin: 20px auto;
+  display: inline-block;
+  color: white;
+  font-style: italic;
+  background-color: #272822;
+  text-decoration: none;
+  padding: 10px;
+  &:hover {
+    color: yellow;
+  }
+}
 .cards {
   padding: 50px 20px;
   display: flex;

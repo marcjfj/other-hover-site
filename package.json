@@ -12,7 +12,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "other-hover": "^1.0.1",
+    "other-hover": "^1.0.2",
     "splitting": "^1.0.6"
   },
   "devDependencies": {
